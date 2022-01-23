@@ -47,7 +47,7 @@ class="timeline-iframe"></iframe>
             overflow: hidden;
             position: relative;
             border: 0;
-            height:10161px;
+            height:8025px;
             width: 100%;
             overflow: hidden !important;
         }
