@@ -9,7 +9,7 @@
  - https://nusmss.github.io/website-events-timeline-mobile/js/data-nusmss-timeline.min.js
 
 
-**iFrame Code:**
+**HTML Embed Code:**
 
     <iframe
     src="https://nusmss.github.io/website-events-timeline-mobile/"
@@ -31,7 +31,7 @@
                 overflow: hidden;
                 position: relative;
                 border: 0;
-                height:5820px;
+                height:6192px;
                 width: 1000px;
                 overflow: hidden !important;
             }
@@ -46,7 +46,7 @@
                 overflow: hidden;
                 position: relative;
                 border: 0;
-                height:6112px;
+                height:5884px;
                 width: 640px;
                 overflow: hidden !important;
             }
