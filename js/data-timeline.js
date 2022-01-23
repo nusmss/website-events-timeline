@@ -445,5 +445,9 @@ var data = [
 	  //false: Ascendente
 	  sortDesc: true,
 	});
+
+
+	// Change iframe src
+	$('#myTimeline').find('iframe').prop('src', "https://nusmss.github.io/website-events-timeline/");
   });
   
