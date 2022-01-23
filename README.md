@@ -7,14 +7,14 @@
 
 **JS**
 
- - https://nusmss.github.io/website-events-timeline/js/jquery-timeline.min.js
- - https://nusmss.github.io/website-events-timeline/js/data-nusmss-timeline.js
+ - https://nusmss.github.io/website-events-timeline-mobile/js/jquery-timeline.min.js
+ - https://nusmss.github.io/website-events-timeline-mobile/js/data-nusmss-timeline.js
 
 
 **iFrame Code:**
 
     <iframe
-    src="https://nusmss.github.io/website-events-timeline"
+    src="https://nusmss.github.io/website-events-timeline-mobile"
     allowtransparency="true"
     scrolling="no"
     frameborder="0"
@@ -71,4 +71,4 @@
 
 ## Preview
 
-https://nusmss.github.io/website-events-timeline
+https://nusmss.github.io/website-events-timeline-mobile
