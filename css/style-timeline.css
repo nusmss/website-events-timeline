@@ -9,12 +9,12 @@ body {
 }
 
 /*MOBILE*/
-@media only screen and (max-width: 768px) {
+/* @media only screen and (max-width: 768px) { */
   .h1,
   h1 {
     font-size: initial !important;
   }
-}
+/* } */
 
 h2,
 h3,
