@@ -31,7 +31,7 @@
                 overflow: hidden;
                 position: relative;
                 border: 0;
-                height:6192px;
+                height:5202px;
                 width: 1000px;
                 overflow: hidden !important;
             }
@@ -46,7 +46,7 @@
                 overflow: hidden;
                 position: relative;
                 border: 0;
-                height:5884px;
+                height:5926px;
                 width: 640px;
                 overflow: hidden !important;
             }
@@ -60,7 +60,7 @@
                 overflow: hidden;
                 position: relative;
                 border: 0;
-                height:8025px;
+                height:8361px;
                 width: 100%;
                 overflow: hidden !important;
             }
