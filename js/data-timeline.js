@@ -434,7 +434,7 @@ var data = [
 	  //Sets the visibility of the annual grouper
 	  showGroup: true,
 	  //Sets the anchor menu visibility for annual groupings (depends on 'showGroup')
-	  showMenu: true,
+	  showMenu: false,
 	  //Specifies the display language of texts (i18n)
 	  language: "en-US",
 	  //Sets the date display format
