@@ -8,7 +8,7 @@
 **JS**
 
  - https://nusmss.github.io/website-events-timeline-mobile/js/jquery-timeline.min.js
- - https://nusmss.github.io/website-events-timeline-mobile/js/data-nusmss-timeline.js
+ - https://nusmss.github.io/website-events-timeline-mobile/js/data-nusmss-timeline.min.js
 
 
 **iFrame Code:**
