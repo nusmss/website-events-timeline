@@ -8,7 +8,7 @@ var data = [
       {
         tag: "img",
         attr: {
-          src: "../CLICK_HERE/img/education-pathways.jpeg",
+          src: "CLICK_HERE/img/education-pathways.jpeg",
           width: "100%",
           cssclass: "img-responsive",
         },
