@@ -35,6 +35,11 @@
  7. Save the file, by clicking on the 'Commit changes' green button at the bottom.
  8. Done. Now check on your live website (Events page) whether it has been updated! :)
 
+## Preview
+
+https://nusmss.github.io/website-events-timeline
+
+------------
 
 **HTML Embed Code:**
 
@@ -93,8 +98,3 @@
             }
         }
     </style>
-
-
-## Preview
-
-https://nusmss.github.io/website-events-timeline
