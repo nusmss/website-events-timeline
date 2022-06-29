@@ -25,7 +25,7 @@
             {
                 tag: "img",
                 attr: {
-                src: "img/[INSERT_UPLOADED_FULL_FILENAME_IF_EVENT_NO_IMAGE_REMOVE_4LINES_ABOVE_AND_4LINES_BELOW_INCLUSIVE]",
+                src: "CLICK_HERE/img/[INSERT_UPLOADED_FULL_FILENAME_IF_EVENT_NO_IMAGE_REMOVE_4LINES_ABOVE_AND_4LINES_BELOW_INCLUSIVE]",
                 width: "100%",
                 cssclass: "img-responsive",
                 },
