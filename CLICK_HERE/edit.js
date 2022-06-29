@@ -1,5 +1,6 @@
-//Json Object
+//EVENT TIMELINE DATA
 var data = [
+  // EDIT BELOW ONWARDS
   {
     time: "2022-01-8",
     header: "Education Pathways",
@@ -376,8 +377,12 @@ var data = [
   // 		content: 'Lorem ipsum dolor sit amet, nisl lorem, wisi egestas orci tempus class massa, suscipit eu elit urna in urna, gravida wisi aenean eros massa, cursus quisque leo quisque dui.'
   // 	}]
   // }
+  
+  // ONLY EDIT ABOVE
+  
 ];
 
+// DO NOT EDIT BELOW
 $(document).ready(function () {
   //**myTimeline**, sets the identifier of the element that will receive the entire timeline (for example, a DIV) and must be unique for each timeline on the page.
   //**data**, defines the Json object containing the list of data to be displayed.
@@ -467,4 +472,5 @@ $(document).ready(function () {
     })(navigator.userAgent || navigator.vendor || window.opera);
     return check;
   }
+  // DO NOT EDIT ABOVE
 });
