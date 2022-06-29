@@ -100,15 +100,81 @@ https://nusmss.github.io/website-events-timeline
         
         /*MOBILE*/
         @media only screen 
+        and (min-width : 490px) 
         and (max-width : 768px) { 
+            .preview-content-holder.shrinker-content {
+                width: 100%;
+                margin: auto !important;
+            }
+
             .timeline-iframe{
                 border: none;
                 overflow: hidden;
                 position: relative;
                 border: 0;
-                height:8361px;
+                height:6390px;
                 width: 100%;
                 overflow: hidden !important;
             }
         }
+        
+        /*SMALLER MOBILE*/
+        @media only screen 
+        and (min-width : 380px) 
+        and (max-width : 490px) { 
+            .preview-content-holder.shrinker-content {
+                width: 100%;
+                margin: auto !important;
+            }
+
+            .timeline-iframe{
+                border: none;
+                overflow: hidden;
+                position: relative;
+                border: 0;
+                height:6630px;
+                width: 100%;
+                overflow: hidden !important;
+            }
+        }
+        
+        /*SMALLEST MOBILE*/
+        @media only screen 
+        and (min-width : 330px) 
+        and (max-width : 380px) { 
+            .preview-content-holder.shrinker-content {
+                width: 100%;
+                margin: auto !important;
+            }
+
+            .timeline-iframe{
+                border: none;
+                overflow: hidden;
+                position: relative;
+                border: 0;
+                height:7190px;
+                width: 100%;
+                overflow: hidden !important;
+            }
+        }
+        
+        /*SMALLESTEST MOBILE*/
+        @media only screen 
+        and (max-width : 330px) { 
+            .preview-content-holder.shrinker-content {
+                width: 100%;
+                margin: auto !important;
+            }
+
+            .timeline-iframe{
+                border: none;
+                overflow: hidden;
+                position: relative;
+                border: 0;
+                height:7400px;
+                width: 100%;
+                overflow: hidden !important;
+            }
+        }
+        
     </style>
