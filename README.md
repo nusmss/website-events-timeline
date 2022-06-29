@@ -16,8 +16,12 @@
 
     	{
             time: "YYYY-MM-DD",
-            header: "[EVENT_TITLE]",
+            header: "[EVENT_TITLE_TOP_HEADER]",
             body: [
+            {
+                tag: "h1",
+                content: "[EVENT_TITLE_IF_NOT_REQUIRED_REMOVE_2LINES_ABOVE_AND_1LINE_BELOW_INCLUSIVE]",
+            },
             {
                 tag: "img",
                 attr: {
