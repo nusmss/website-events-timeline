@@ -1,18 +1,30 @@
-## CDN
-**CSS**
+## HOW TO EDIT TIMELINE
+**If new event contains photo, please upload the files in the following url**
 
- - https://nusmss.github.io/website-events-timeline-mobile/
+ 1. Go to https://github.com/nusmss/website-events-timeline/tree/main/CLICK_HERE/img
+ 2. Click 'Add file' at the top right side of the text editor
+ 3. Click 'Upload files'
+ 4. Choose the photo(s) in your computer
+ 5. Press Enter
+ 6. Upload successfully!
 
-**JS**
+**Edit Event Data**
 
- - https://nusmss.github.io/website-events-timeline-mobile/js/jquery-timeline.min.js
- - https://nusmss.github.io/website-events-timeline-mobile/js/data-nusmss-timeline.min.js
+ 1. Go to file at https://github.com/nusmss/website-events-timeline/blob/main/CLICK_HERE/edit.js
+ 2. Click the edit 'pencil' icon located at the top right side of the text editor
+ 3. Copy the Sample Code below for EACH of your new event
+
+ 4. Understand that the codes you see is in sequence to the timeline displayed. Find the place where you would like to insert the new content
+ 5. Paste in that area
+ 6. Edit the respective values
+ 7. Save the file, by clicking on the 'Commit changes' green button at the bottom.
+ 8. Done. Now check on your live website (Events page) whether it has been updated! :)
 
 
 **HTML Embed Code:**
 
     <iframe
-    src="https://nusmss.github.io/website-events-timeline-mobile/"
+    src="https://nusmss.github.io/website-events-timeline/"
     allowtransparency="true"
     scrolling="no"
     frameborder="0"
@@ -70,4 +82,4 @@
 
 ## Preview
 
-https://nusmss.github.io/website-events-timeline-mobile
+https://nusmss.github.io/website-events-timeline
