@@ -6,6 +6,14 @@ var data = [
     header: "Education Pathways",
     body: [
       {
+        tag: "img",
+        attr: {
+          src: "img/education-pathways.jpeg",
+          width: "100%",
+          cssclass: "img-responsive",
+        },
+      },
+      {
         tag: "p",
         content:
           "Education Pathways, as a symposium-style event, discussed the diverse trajectories individual students experienced throughout their educational journey.",
