@@ -13,6 +13,7 @@
  1. Go to file at https://github.com/nusmss/website-events-timeline/blob/main/CLICK_HERE/edit.js
  2. Click the edit 'pencil' icon located at the top right side of the text editor
  3. Copy the Sample Code below for EACH of your new event
+
     {
         time: "YYYY-MM-DD",
         header: "TYPE_HEADER_HERE",
@@ -29,6 +30,7 @@
         },
         ],
     },
+
  4. Understand that the codes you see is in sequence to the timeline displayed. Find the place where you would like to insert the new content
  5. Paste in that area (Take note that for every opening curly brackets "{" and closing "}", there does not exist any extra commas)
  6. Edit the respective values
