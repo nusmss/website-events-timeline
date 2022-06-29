@@ -1,5 +1,5 @@
 ## HOW TO EDIT TIMELINE
-**If new event contains photo, please upload the files in the following url**
+**If New Event(s) Contains Photo, Please Upload the files in the following URL**
 
  1. Go to https://github.com/nusmss/website-events-timeline/tree/main/CLICK_HERE/img
  2. Click 'Add file' at the top right side of the text editor
@@ -12,22 +12,32 @@
 
  1. Go to file at https://github.com/nusmss/website-events-timeline/blob/main/CLICK_HERE/edit.js
  2. Click the edit 'pencil' icon located at the top right side of the text editor
- 3. Copy the Sample Code below for EACH of your new event
+ 3. Copy and Modify the Sample Code below for EACH of your New Event(s)
 
     	{
-			time: "YYYY-MM-DD",
-			header: "TYPE_HEADER_HERE",
-			body: [
-				{
-					tag: "p",
-					content: "TYPE_CONTENT_HERE",
-				},
-				{
-					tag: "p",
-					content: "TYPE_MORE_CONTENT_HERE_IF_NEED_OTHERWISE_REMOVE_FROM_3LINES_ABOVE_AND_1LINE_BELOW",
-				},
-			],
-		},
+            time: "YYYY-MM-DD",
+            header: "[EVENT_TITLE]",
+            body: [
+            {
+                tag: "img",
+                attr: {
+                src: "img/[INSERT_UPLOADED_FULL_FILENAME_IF_EVENT_NO_IMAGE_REMOVE_4LINES_ABOVE_AND_4LINES_BELOW_INCLUSIVE]",
+                width: "100%",
+                cssclass: "img-responsive",
+                },
+            },
+            {
+                tag: "p",
+                content:
+                "[INSERT_FIRST_PARAGRAPH_TEXT]",
+            },
+            {
+                tag: "p",
+                content:
+                "[INSERT_SECOND_PARAGRAPH_TEXT_IF_ANY_OTHERWISE_JUST_REMOVE_3LINES_ABOVE_AND_1LINE_BELOW_INCLUSIVE]",
+            },
+            ],
+        },
 
  4. Understand that the codes you see is in sequence to the timeline displayed. Find the place where you would like to insert the new content
  5. Paste in that area (Take note that for every opening curly brackets "{" and closing "}", there does not exist any extra commas)
