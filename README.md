@@ -68,7 +68,7 @@ https://nusmss.github.io/website-events-timeline
     <p>Your browser does not support iframes.</p>
 
     <style>
-        
+
         /*DESKTOP*/
         @media only screen 
         and (min-width : 1200px)  { 
@@ -82,7 +82,7 @@ https://nusmss.github.io/website-events-timeline
                 overflow: hidden !important;
             }
         }
-        
+
         /*TABLET*/
         @media only screen 
         and (min-width : 768px) 
@@ -97,7 +97,7 @@ https://nusmss.github.io/website-events-timeline
                 overflow: hidden !important;
             }
         }
-        
+
         /*MOBILE*/
         @media only screen 
         and (min-width : 490px) 
@@ -117,7 +117,7 @@ https://nusmss.github.io/website-events-timeline
                 overflow: hidden !important;
             }
         }
-        
+
         /*SMALLER MOBILE*/
         @media only screen 
         and (min-width : 380px) 
@@ -137,7 +137,7 @@ https://nusmss.github.io/website-events-timeline
                 overflow: hidden !important;
             }
         }
-        
+
         /*SMALLEST MOBILE*/
         @media only screen 
         and (min-width : 330px) 
@@ -157,7 +157,7 @@ https://nusmss.github.io/website-events-timeline
                 overflow: hidden !important;
             }
         }
-        
+
         /*SMALLESTEST MOBILE*/
         @media only screen 
         and (max-width : 330px) { 
@@ -176,5 +176,5 @@ https://nusmss.github.io/website-events-timeline
                 overflow: hidden !important;
             }
         }
-        
-    </style>
+
+    </style> 
