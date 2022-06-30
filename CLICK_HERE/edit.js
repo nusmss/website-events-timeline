@@ -8,7 +8,7 @@ var data = [
       {
         tag: "img",
         attr: {
-          src: "CLICK_HERE/img/education-pathways.jpeg",
+          src: "CLICK_HERE/img/education_pathways_2.jpeg",
           width: "100%",
           cssclass: "img-responsive",
         },
@@ -34,6 +34,14 @@ var data = [
         content: "INSB Part 2",
       },
       {
+        tag: "img",
+        attr: {
+          src: "CLICK_HERE/img/im_not_sexist_but.jpeg",
+          width: "100%",
+          cssclass: "img-responsive",
+        },
+      },
+      {
         tag: "p",
         content:
           "The 3-session programme invited students to come together and discuss topics such as misogyny, sexism and allyship in their everyday lives.",
@@ -54,6 +62,14 @@ var data = [
         content: "INSB Part 1",
       },
       {
+        tag: "img",
+        attr: {
+          src: "CLICK_HERE/img/im_not_sexist_but.jpeg",
+          width: "100%",
+          cssclass: "img-responsive",
+        },
+      },
+      {
         tag: "p",
         content:
           "The 3-session programme invited students to come together and discuss topics such as misogyny, sexism and allyship in their everyday lives.",
@@ -72,6 +88,14 @@ var data = [
       {
         tag: "h1",
         content: "“Kita Dengan Bahasa, Tumbuh Sampai Ke Mana?”",
+      },
+      {
+        tag: "img",
+        attr: {
+          src: "CLICK_HERE/img/sembang_ilmu_v.jpeg",
+          width: "100%",
+          cssclass: "img-responsive",
+        },
       },
       {
         tag: "p",
@@ -123,6 +147,14 @@ var data = [
         content: "“Productive or Provocative?",
       },
       {
+        tag: "img",
+        attr: {
+          src: "CLICK_HERE/img/karyawan_productive_or_provocative.jpeg",
+          width: "100%",
+          cssclass: "img-responsive",
+        },
+      },
+      {
         tag: "p",
         content:
           "With guest speakers Hamed Ismail, Alfian Sa’at and Nessa Anwar, this forum brought the experiences, aims and impacts of local writers across various mediums to the fore.",
@@ -138,6 +170,14 @@ var data = [
     time: "2021-01-29",
     header: "M.ALLY (Male Allyship Programme)",
     body: [
+      {
+        tag: "img",
+        attr: {
+          src: "CLICK_HERE/img/male_allyship_programme.png",
+          width: "100%",
+          cssclass: "img-responsive",
+        },
+      },
       {
         tag: "p",
         content:
