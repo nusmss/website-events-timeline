@@ -90,6 +90,14 @@ var data = [
           "“Arts and Humanities in Community Building – The Young Perspective”",
       },
       {
+        tag: "img",
+        attr: {
+        src: "CLICK_HERE/img/arts_and_humanities_in_community_building.jpeg",
+        width: "100%",
+        cssclass: "img-responsive",
+        },
+      },
+      {
         tag: "p",
         content:
           "This iteration of the Sembang Ilmu event aimed to bridge academic discourse in the Arts and Humanities with community-level interaction.",
