@@ -76,6 +76,7 @@ Technical & Faster Steps (using 'Inspect Element') <-- Watching Tutorial Video i
  7. For trial-and-error of height values, you will need to find the '<iframe' word in the code display panel, and then change the height values accordingly. While doing this, you will notice the events timeline in the screen display will change in real-time. Hence, this method is more technical but faster steps.
 
 ------------
+The codes below is a copy of what has been applied on your Web Builder. It is advised to update the codes below as backup whenever you made changes in the Web Builder, by editing this notes. <-- You can do so by clicking the 'edit' or 'pencil' button located at the top of this text viewer. After that, click the green 'commit changes' button.
 
 **HTML Embed Code:**
 
