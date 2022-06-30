@@ -53,6 +53,28 @@
 
 https://nusmss.github.io/website-events-timeline
 
+
+**For Mobile Responsive Sizes**
+We will need to change the height for the different screen sizes:
+ 1. Desktop (width: 1200 pixels & beyond)
+ 2. Tablet (width: 768 to 1200 pixels)
+ 3. Mobile (width: 490 to 768 pixels)
+ 4. Smaller Mobile (width: 380 to 490 pixels)
+ 5. Smallest Mobile (width: 330 to 380 pixels)
+ 6. Smallestest Mobile (width: up to 330 pixels)
+
+For non-technical:
+Perform the heights changing trial-and-error via Edit Widget > Red Square Icon > Click 'Code' on the top right in your web builder. For each trial-and-error fixing of height values, adjust your browser (i.e. Chrome) window size to immitate all the above different screen sizes. Proceed with height value changing for the respective screen size (i.e. Desktop), for each change to be seen, click on the 'Save' button. And see if your newly updated events timeline is being showed as expected (i.e. scroll to the bottom and see if any content being cropped out). Alternatively, you may refer to the tutorial video by Ramadhan.
+
+Technical & Faster Steps (using 'Inspect Element') <-- Watching Tutorial Video is recommended for visualisation
+ 1. Open https://nusmss.micronify.com/events
+ 2. Right-click on the events timeline, and click 'Inspect', revealing side developer console
+ 3. On the side developer console, on its most top left hand side, second button from the left, click on the 'mobile' icon. <-- this will show you the different mobile sizes
+ 4. Now, on the top left side, change the 'Dimensions' to 'Responsive'.
+ 5. You will be able to see on the screen, there are draggable right tool and draggable bottom tool for you to adjust the screen sizes accordingly.
+ 6. Use this screen sizing tool to simulate all of the 6 different Mobile Responsive Sizes indicated above.
+ 7. For trial-and-error of height values, you will need to find the '<iframe' word in the code display panel, and then change the height values accordingly. While doing this, you will notice the events timeline in the screen display will change in real-time. Hence, this method is more technical but faster steps.
+
 ------------
 
 **HTML Embed Code:**
