@@ -221,6 +221,16 @@ section#timeline > article > div.panel div.badge:last-child {
     border-radius: 0;
   }
 
+  section#timeline > article.inverted > div.panel .panel-body {
+    text-align: center;
+    float: none;
+    width: 100%;
+    border-top: 2px solid #4f858b;
+    top: 20px;
+    margin-bottom: 30px;
+    border-radius: 0;
+  }
+
   section#timeline > article.inverted > div.panel div.badge,
   section#timeline > article > div.panel div.badge {
     text-align: center;
