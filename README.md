@@ -1,5 +1,5 @@
 ## HOW TO EDIT TIMELINE
-**If New Event(s) Contains Photo, Please Upload the files in the following URL**
+**If New/Existing Event(s) Contains/Needs Photo, Please Upload the files in the following URL**
 
  1. Go to https://github.com/nusmss/website-events-timeline/tree/main/CLICK_HERE/img
  2. Click 'Add file' at the top right side of the text editor
