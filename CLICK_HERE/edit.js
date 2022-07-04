@@ -199,6 +199,14 @@ var data = [
         content: "“Ada Apa Dengan Bahasa?”",
       },
       {
+        tag: "img",
+        attr: {
+          src: "CLICK_HERE/img/01 Sembang Ilmu_Apa Bahasa.png",
+          width: "100%",
+          cssclass: "img-responsive",
+        },
+      },
+      {
         tag: "p",
         content:
           "This iteration of the semi-annual event sought to discuss the cultivating and empowering of the Malay Language in our community.",
