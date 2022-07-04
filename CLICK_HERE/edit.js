@@ -231,6 +231,14 @@ var data = [
         tag: "h1",
         content: "“Us vs Them: Prejudice & ‘Othering’ in Our Communities.”",
       },
+       {
+        tag: "img",
+        attr: {
+          src: "CLICK_HERE/img/02 E-SLF_UsVsThem.png",
+          width: "100%",
+          cssclass: "img-responsive",
+        },
+      },
       {
         tag: "p",
         content:
@@ -247,6 +255,14 @@ var data = [
         content:
           "“Nusantara/The Malay World: Varieties of Competing Discourse.”",
       },
+       {
+        tag: "img",
+        attr: {
+          src: "CLICK_HERE/img/03 E-SLF_Nusantara.png",
+          width: "100%",
+          cssclass: "img-responsive",
+        },
+      },
       {
         tag: "p",
         content:
@@ -261,6 +277,14 @@ var data = [
       {
         tag: "h1",
         content: "“History & Power: Portrayals of the Malay Community”",
+      },
+      {
+        tag: "img",
+        attr: {
+          src: "CLICK_HERE/img/04 Sembang Ilmu_History n Power.png",
+          width: "100%",
+          cssclass: "img-responsive",
+        },
       },
       {
         tag: "p",
@@ -283,6 +307,14 @@ var data = [
         content: "“Taboo and Anxieties”",
       },
       {
+        tag: "img",
+        attr: {
+          src: "CLICK_HERE/img/05 Sexualtiy Matters_Taboos n Anxieties.png",
+          width: "100%",
+          cssclass: "img-responsive",
+        },
+      },
+      {
         tag: "p",
         content:
           "From questions on sexual identity to the role of sex education, the dialogue sought to create a safe space for discussions regarding sexual taboos within the Malay-Muslim community.",
@@ -298,6 +330,14 @@ var data = [
     time: "2020-01-31",
     header: "Faith and Humanity 2",
     body: [
+        {
+        tag: "img",
+        attr: {
+          src: "CLICK_HERE/img/06 Faith n Humanity 2.png",
+          width: "100%",
+          cssclass: "img-responsive",
+        },
+      },
       {
         tag: "p",
         content:
@@ -313,6 +353,14 @@ var data = [
         tag: "h1",
         content:
           "“Volunteerism within The Malay Youth: Looking at Our Initiatives & Doing Beyond”",
+      },
+      {
+        tag: "img",
+        attr: {
+          src: "CLICK_HERE/img/07 Undergrad Form_Volunteerism.png",
+          width: "100%",
+          cssclass: "img-responsive",
+        },
       },
       {
         tag: "p",
@@ -335,6 +383,14 @@ var data = [
         content: "“Mekar”",
       },
       {
+        tag: "img",
+        attr: {
+          src: "CLICK_HERE/img/08 MK19_Mekar.png",
+          width: "100%",
+          cssclass: "img-responsive",
+        },
+      },
+      {
         tag: "p",
         content:
           "Malam Kesenian (Cultural Night) is an annual event held at the start of the academic year to bring students together through showcases and performances.",
@@ -354,6 +410,14 @@ var data = [
         tag: "h1",
         content:
           "“Empowering Budaya: The Challenges of Cultural Nihilism and Fetishism”",
+      },
+       {
+        tag: "img",
+        attr: {
+          src: "CLICK_HERE/img/09 Canvass_ Empowering Budaya.png",
+          width: "100%",
+          cssclass: "img-responsive",
+        },
       },
       {
         tag: "p",
@@ -376,6 +440,14 @@ var data = [
         content:
           "Through this event, participants discussed notions and perspectives surrounding their understanding of sexuality alongside faith.",
       },
+       {
+        tag: "img",
+        attr: {
+          src: "CLICK_HERE/img/10 Faith n Sexuality.png",
+          width: "100%",
+          cssclass: "img-responsive",
+        },
+      },
       {
         tag: "p",
         content:
@@ -390,6 +462,14 @@ var data = [
       {
         tag: "h1",
         content: "“Leadership of the Malay-Muslim Community”",
+      },
+      {
+        tag: "img",
+        attr: {
+          src: "CLICK_HERE/img/11 Canvass_Leadership.png",
+          width: "100%",
+          cssclass: "img-responsive",
+        },
       },
       {
         tag: "p",
