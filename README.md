@@ -100,7 +100,7 @@ The codes below is a copy of what has been applied on your Web Builder. It is ad
                 overflow: hidden;
                 position: relative;
                 border: 0;
-                height:5202px;
+                height:11380px;
                 width: 1000px;
                 overflow: hidden !important;
             }
@@ -115,7 +115,7 @@ The codes below is a copy of what has been applied on your Web Builder. It is ad
                 overflow: hidden;
                 position: relative;
                 border: 0;
-                height:5926px;
+                height:16630px;
                 width: 640px;
                 overflow: hidden !important;
             }
@@ -135,7 +135,7 @@ The codes below is a copy of what has been applied on your Web Builder. It is ad
                 overflow: hidden;
                 position: relative;
                 border: 0;
-                height:6390px;
+                height:13280px;
                 width: 100%;
                 overflow: hidden !important;
             }
@@ -155,7 +155,7 @@ The codes below is a copy of what has been applied on your Web Builder. It is ad
                 overflow: hidden;
                 position: relative;
                 border: 0;
-                height:6630px;
+                height:11715px;
                 width: 100%;
                 overflow: hidden !important;
             }
@@ -175,7 +175,7 @@ The codes below is a copy of what has been applied on your Web Builder. It is ad
                 overflow: hidden;
                 position: relative;
                 border: 0;
-                height:7190px;
+                height:11239px;
                 width: 100%;
                 overflow: hidden !important;
             }
@@ -183,7 +183,7 @@ The codes below is a copy of what has been applied on your Web Builder. It is ad
 
         /*SMALLESTEST MOBILE*/
         @media only screen 
-        and (max-width : 330px) { 
+        and (max-width : 11239px) { 
             .preview-content-holder.shrinker-content {
                 width: 100%;
                 margin: auto !important;
@@ -194,7 +194,7 @@ The codes below is a copy of what has been applied on your Web Builder. It is ad
                 overflow: hidden;
                 position: relative;
                 border: 0;
-                height:7400px;
+                height:8880px;
                 width: 100%;
                 overflow: hidden !important;
             }
