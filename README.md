@@ -103,6 +103,7 @@ Continue with the following steps (Another Tab, preferably now you have 2 window
  12. Save your new Website Builder's Code for each time.
 
      ![](https://i.imgur.com/WxGIfmj.png)
+ 13. Repeat steps 7 to 12 for each of the six different mobile sizes shown in the above Mobile Responsive Sizing Chart.
 
 
 **Testing of Different Mobile Sizes using Web Builder**
