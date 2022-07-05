@@ -54,27 +54,67 @@
 https://nusmss.github.io/website-events-timeline
 
 
-**For Mobile Responsive Sizes**
+## HOW TO RESOLVE CROPPED OUT EVENTS TIMELINE**
+
+**Mobile Responsive Sizing Chart**
+
 We will need to change the height for the different screen sizes:
- 1. Desktop (width: 1200 pixels & beyond)
- 2. Tablet (width: 768 to 1200 pixels)
- 3. Mobile (width: 490 to 768 pixels)
- 4. Smaller Mobile (width: 380 to 490 pixels)
- 5. Smallest Mobile (width: 330 to 380 pixels)
- 6. Smallestest Mobile (width: up to 330 pixels)
+ 1. Desktop (width: 1200 pixels & beyond) <-- Use '1200'
+ 2. Tablet (width: 768 to 1200 pixels) <-- Use '768'
+ 3. Mobile (width: 490 to 768 pixels) <-- Use '490'
+ 4. Smaller Mobile (width: 380 to 490 pixels) <-- Use '380'
+ 5. Smallest Mobile (width: 330 to 380 pixels) <-- Use '330'
+ 6. Smallestest Mobile (width: up to 330 pixels) <-- Use '330' (Which is same height as item above)
 
-For non-technical:
-Perform the heights changing trial-and-error via Edit Widget > Red Square Icon > Click 'Code' on the top right in your web builder. For each trial-and-error fixing of height values, adjust your browser (i.e. Chrome) window size to immitate all the above different screen sizes. Proceed with height value changing for the respective screen size (i.e. Desktop), for each change to be seen, click on the 'Save' button. And see if your newly updated events timeline is being showed as expected (i.e. scroll to the bottom and see if any content being cropped out). Alternatively, you may refer to the tutorial video by Ramadhan.
+**Solution (Steps might be slightly technical. Screenshots with instructions are provided to assist you)**
+1. On your Website Builder, go to Events page.
+2. Now click on the 'Events' element you see on the page and click on Edit Widget.
+   
+   ![](https://i.imgur.com/AtKyTYU.png)
+3. Click 'Code' on the top right in your web builder.
+   
+   ![](https://i.imgur.com/KyRWGth.png)
 
-Technical & Faster Steps (using 'Inspect Element') <-- Watching Tutorial Video is recommended for visualisation
+Continue with the following steps (Another Tab, preferably now you have 2 windows side-by-side) <-- Watch Tutorial Video is recommended for visualisation
  1. Open https://nusmss.micronify.com/events
- 2. Right-click on the events timeline, and click 'Inspect', revealing side developer console
- 3. On the side developer console, on its most top left hand side, second button from the left, click on the 'mobile' icon. <-- this will show you the different mobile sizes
+ 2. Right-click on the events timeline, and click 'Inspect', revealing side developer console.
+    
+    ![](https://i.imgur.com/6Eeo0ul.png)
+ 3. On the side developer console, on its most top left hand side, second button from the left, click on the 'mobile' icon. <-- this will show you the different mobile sizes.
+    
+    ![](http://tiny.cc/t69tuz)
  4. Now, on the top left side, change the 'Dimensions' to 'Responsive'.
+    
+    ![](http://tiny.cc/q69tuz)
  5. You will be able to see on the screen, there are draggable right tool and draggable bottom tool for you to adjust the screen sizes accordingly.
+    
+    ![](http://tiny.cc/u69tuz)
  6. Use this screen sizing tool to simulate all of the 6 different Mobile Responsive Sizes indicated above.
- 7. For trial-and-error of height values, you will need to find the '<iframe' word in the code display panel, and then change the height values accordingly. While doing this, you will notice the events timeline in the screen display will change in real-time. Hence, this method is more technical but faster steps.
+ 7. For example, let's start with Desktop. Refer to the dimensions listed above, use the given number within quotes. Change the width to 1200px (where px means pixels).
+ 8. Still on the developer console, make sure you have clicked on it, use 'Ctrl + F' key to bring up the search console. Then in the search textbox, type '<iframe'.
+    
+    ![](https://i.imgur.com/ZY1laJY.png)
+ 9. Now you will need to do trial-and-error of height values changing. Increase or decrease the height value as needed, while paying attention to the preview screen on the left if the cropping/extra space issue has been fixed.
+    
+    ![](https://i.imgur.com/RLV7n01.png)
+ 10. Once you have found the most suitable height value, copy that value and replace the existing value, inside your Website Builder's Code, with it.
+  
+     ![](https://i.imgur.com/XfmAMsL.png)
+ 12. Save your new Website Builder's Code for each time.
 
+     ![](https://i.imgur.com/WxGIfmj.png)
+
+
+**Testing of Different Mobile Sizes using Web Builder**
+  1. Click 'Preview' button at the top to select.
+     
+     ![](https://i.imgur.com/ugxEEan.png)
+     
+## FAQ ##
+  1. I have completed all steps successfully but when I visit the website, it is still not updated?
+     
+     This is usually due to a problem with your browser's cache. You can either clear your browser cache or wait a while. You can also test the changes in an incognito window to see if they are reflected. The cache is not stored in the incognito environment.
+     
 ------------
 The codes below is a copy of what has been applied on your Web Builder. It is advised to update the codes below as backup whenever you made changes in the Web Builder, by editing this notes. <-- You can do so by clicking the 'edit' or 'pencil' button located at the top of this text viewer. After that, click the green 'commit changes' button.
 
@@ -183,7 +223,7 @@ The codes below is a copy of what has been applied on your Web Builder. It is ad
 
         /*SMALLESTEST MOBILE*/
         @media only screen 
-        and (max-width : 11239px) { 
+        and (max-width : 330px) { 
             .preview-content-holder.shrinker-content {
                 width: 100%;
                 margin: auto !important;
@@ -194,7 +234,7 @@ The codes below is a copy of what has been applied on your Web Builder. It is ad
                 overflow: hidden;
                 position: relative;
                 border: 0;
-                height:8880px;
+                height:11259px;
                 width: 100%;
                 overflow: hidden !important;
             }
