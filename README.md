@@ -141,7 +141,7 @@ The codes below is a copy of what has been applied on your Web Builder. It is ad
                 overflow: hidden;
                 position: relative;
                 border: 0;
-                height:11380px;
+                min-height:11380px;
                 width: 1000px;
                 overflow: hidden !important;
             }
@@ -176,8 +176,8 @@ The codes below is a copy of what has been applied on your Web Builder. It is ad
                 overflow: hidden;
                 position: relative;
                 border: 0;
-                height:13280px;
-                width: 100%;
+                height:13410px;
+                width: 450px;
                 overflow: hidden !important;
             }
         }
@@ -196,8 +196,8 @@ The codes below is a copy of what has been applied on your Web Builder. It is ad
                 overflow: hidden;
                 position: relative;
                 border: 0;
-                height:11715px;
-                width: 100%;
+                height:11934px;
+                width: 360px;
                 overflow: hidden !important;
             }
         }
@@ -216,8 +216,8 @@ The codes below is a copy of what has been applied on your Web Builder. It is ad
                 overflow: hidden;
                 position: relative;
                 border: 0;
-                height:11239px;
-                width: 100%;
+                height:11500px;
+                width: 310px;
                 overflow: hidden !important;
             }
         }
@@ -235,8 +235,8 @@ The codes below is a copy of what has been applied on your Web Builder. It is ad
                 overflow: hidden;
                 position: relative;
                 border: 0;
-                height:11259px;
-                width: 100%;
+                height:11369px;
+                width: 275px;
                 overflow: hidden !important;
             }
         }
