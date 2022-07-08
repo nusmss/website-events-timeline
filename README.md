@@ -75,7 +75,7 @@ Continue with the following steps (Open another tab, preferably now you have 2 w
  3. On the side developer console, on its most top left hand side, second button from the left, click on the 'mobile' icon. <-- this will show you the different mobile sizes.
     
     ![](http://tiny.cc/t69tuz)
- 4. Now, on the top left side, change the 'Dimensions' to 'Responsive'. Notice the 2 textboxes beside it, for manually input of [width x height].
+ 4. Now, on the top left side, change the 'Dimensions' to 'Responsive'. Notice the 2 textboxes beside it, for manual input of [width x height].
     
     ![](http://tiny.cc/q69tuz)
  5. You will be able to see on the screen, there are draggable right tool and draggable bottom tool for you to adjust the screen sizes accordingly.
