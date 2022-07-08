@@ -86,7 +86,7 @@ Continue with the following steps (Open another tab, preferably now you have 2 w
     **Mobile Responsive Sizing Chart**
     
     We will need to change the height for the different screen sizes:
-     1. Desktop (width: 1201 pixels & beyond) **<-- Use '1201'**
+     1. Desktop (width: 1200 pixels & beyond) **<-- Use '1201'**
      2. Tablet (width: 768 to 1200 pixels) **<-- Use '769'**
      3. Mobile (width: 490 to 768 pixels) **<-- Use '491'**
      4. Smaller Mobile (width: 380 to 490 pixels) **<-- Use '381'**
