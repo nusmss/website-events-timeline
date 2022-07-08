@@ -67,7 +67,7 @@ https://nusmss.github.io/website-events-timeline
    
    ![](https://i.imgur.com/KyRWGth.png)
 
-Continue with the following steps (Another Tab, preferably now you have 2 windows side-by-side) <-- Watch Tutorial Video is recommended for visualisation
+Continue with the following steps (Open another tab, preferably now you have 2 windows side-by-side)
  1. Open https://nusmss.micronify.com/events
  2. Right-click on the events timeline, and click 'Inspect', revealing side developer console.
     
