@@ -177,7 +177,127 @@ The codes below is a copy of what has been applied on your Web Builder. It is ad
                 position: relative;
                 border: 0;
                 height:13410px;
-                width: 450px;
+                width: <iframe
+src="https://nusmss.github.io/website-events-timeline/"
+allowtransparency="true"
+scrolling="no"
+frameborder="0"
+allowTransparency="true"
+class="timeline-iframe"></iframe>
+
+<p>Your browser does not support iframes.</p>
+
+<style>
+
+    /*DESKTOP*/
+    @media only screen 
+    and (min-width : 1200px)  { 
+        .timeline-iframe{
+            border: none;
+            overflow: hidden;
+            position: relative;
+            border: 0;
+            min-height:11380px;
+            width: 1000px;
+            overflow: hidden !important;
+        }
+    }
+
+    /*TABLET*/
+    @media only screen 
+    and (min-width : 768px) 
+    and (max-width : 1200px) { 
+        .timeline-iframe{
+            border: none;
+            overflow: hidden;
+            position: relative;
+            border: 0;
+            height:16630px;
+            width: 640px;
+            overflow: hidden !important;
+        }
+    }
+
+    /*MOBILE*/
+    @media only screen 
+    and (min-width : 490px) 
+    and (max-width : 768px) { 
+        .preview-content-holder.shrinker-content {
+            width: 100%;
+            margin: auto !important;
+        }
+
+        .timeline-iframe{
+            border: none;
+            overflow: hidden;
+            position: relative;
+            border: 0;
+            height:13410px;
+            width: 440px;
+            overflow: hidden !important;
+        }
+    }
+
+    /*SMALLER MOBILE*/
+    @media only screen 
+    and (min-width : 380px) 
+    and (max-width : 490px) { 
+        .preview-content-holder.shrinker-content {
+            width: 100%;
+            margin: auto !important;
+        }
+
+        .timeline-iframe{
+            border: none;
+            overflow: hidden;
+            position: relative;
+            border: 0;
+            height:11934px;
+            width: 360px;
+            overflow: hidden !important;
+        }
+    }
+
+    /*SMALLEST MOBILE*/
+    @media only screen 
+    and (min-width : 330px) 
+    and (max-width : 380px) { 
+        .preview-content-holder.shrinker-content {
+            width: 100%;
+            margin: auto !important;
+        }
+
+        .timeline-iframe{
+            border: none;
+            overflow: hidden;
+            position: relative;
+            border: 0;
+            height:11500px;
+            width: 310px;
+            overflow: hidden !important;
+        }
+    }
+
+    /*SMALLESTEST MOBILE*/
+    @media only screen 
+    and (max-width : 330px) { 
+        .preview-content-holder.shrinker-content {
+            width: 100%;
+            margin: auto !important;
+        }
+
+        .timeline-iframe{
+            border: none;
+            overflow: hidden;
+            position: relative;
+            border: 0;
+            height:11219px;
+            width: 275px;
+            overflow: hidden !important;
+        }
+    }
+
+</style> ;
                 overflow: hidden !important;
             }
         }
