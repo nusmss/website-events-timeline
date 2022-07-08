@@ -47,7 +47,8 @@
  5. Paste in that area (Take note that for every opening curly brackets "{" and closing "}", there does not exist any extra commas)
  6. Edit the respective values
  7. Save the file, by clicking on the 'Commit changes' green button at the bottom.
- 8. Done. Now check on your live website (Events page) whether it has been updated! :)
+ 8. Done. Now check on your live website (Events page) whether it has been updated!
+ 9. In most cases, you will need to resolve the '**HOW TO RESOLVE CROPPED OUT EVENTS TIMELINE**' issue described below. If necessary, follow the instructions.
 
 ## Preview
 
