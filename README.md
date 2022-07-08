@@ -91,7 +91,7 @@ Continue with the following steps (Open another tab, preferably now you have 2 w
      3. Mobile (width: 490 to 768 pixels) **<-- Use '491'**
      4. Smaller Mobile (width: 380 to 490 pixels) **<-- Use '381'**
      5. Smallest Mobile (width: 330 to 380 pixels) **<-- Use '331'**
-     6. Smallestest Mobile (width: up to 330 pixels) **<-- Use '330'** (Which is same height as item above)
+     6. Smallestest Mobile (width: up to 330 pixels) **<-- Use '330'**
  
  7. For example, let's start with **Mobile**. Refer to the dimensions listed above, use the given number within quotes. Key in **'491'** into the width textbox field, and then press the 'Enter' key.
     
