@@ -79,7 +79,7 @@ Continue with the following steps (Another Tab, preferably now you have 2 window
  5. You will be able to see on the screen, there are draggable right tool and draggable bottom tool for you to adjust the screen sizes accordingly.
     
     ![](http://tiny.cc/u69tuz)
- 6. But to save time, we will set the dimension via 'width' textbox field in Step 8 instead. Below is the Sizing Chart. Take note of the bold "Use 'xxx'" value, where x represents the value you should use for input later.
+ 6. But to save time, we will set the dimension via 'width' textbox field in Step 7 instead. Below is the Sizing Chart. Take note of the bold "Use 'xxx'" value, where x represents the value you should use for input later.
     
     **Mobile Responsive Sizing Chart**
     
@@ -91,24 +91,24 @@ Continue with the following steps (Another Tab, preferably now you have 2 window
      5. Smallest Mobile (width: 330 to 380 pixels) **<-- Use '331'**
      6. Smallestest Mobile (width: up to 330 pixels) **<-- Use '330'** (Which is same height as item above)
  
- 8. For example, let's start with **Mobile**. Refer to the dimensions listed above, use the given number within quotes. Key in **'491'** into the width textbox field, and then press the 'Enter' key.
+ 7. For example, let's start with **Mobile**. Refer to the dimensions listed above, use the given number within quotes. Key in **'491'** into the width textbox field, and then press the 'Enter' key.
     
     ![](https://i.imgur.com/NyErCHf.png)
- 9. Still on the developer console, use 'Ctrl + F' key to bring up the "search" console. In the search textbox, type '<iframe', and then press the 'Enter' key.
+ 8. Still on the developer console, use 'Ctrl + F' key to bring up the "search" console. In the search textbox, type '<iframe', and then press the 'Enter' key.
     
     ![](https://i.imgur.com/ZY1laJY.png)
- 10. Now you will need to do trial-and-error of height values changing for each of the Mobile Responsive Sizes listed above. Increase or decrease the height value as needed, while paying attention to the preview screen on the left if the cropping/extra space issue has been fixed. (**ONLY CHANGE THE HEIGHT**, leave everything else as it is)
+ 9. Now you will need to do trial-and-error of height values changing for each of the Mobile Responsive Sizes listed above. Increase or decrease the height value as needed, while paying attention to the preview screen on the left if the cropping/extra space issue has been fixed. (**ONLY CHANGE THE HEIGHT**, leave everything else as it is)
     
      ![](https://i.imgur.com/RLV7n01.png)
      
      ![](https://i.imgur.com/dR4Nc65.png)
- 11. Once you have found the most suitable height value, copy that value and replace the existing value, inside your Website Builder's Code, with it.
+ 10. Once you have found the most suitable height value, copy that value and replace the existing value, inside your Website Builder's Code, with it.
   
      ![](https://i.imgur.com/XfmAMsL.png)
- 12. Save your new Website Builder's Code for each time.
+ 11. Save your new Website Builder's Code for each time.
 
      ![](https://i.imgur.com/WxGIfmj.png)
- 13. Repeat steps 7 to 11 for each of the six different mobile sizes shown in the above Mobile Responsive Sizing Chart.
+ 12. Repeat steps 7 to 11 for each of the six different mobile sizes shown in the above Mobile Responsive Sizing Chart.
 
 
 **Testing of Different Mobile Sizes using Web Builder**
