@@ -233,7 +233,7 @@ class="timeline-iframe"></iframe>
             position: relative;
             border: 0;
             height:13410px;
-            width: 440px;
+            width: 430px;
             overflow: hidden !important;
         }
     }
