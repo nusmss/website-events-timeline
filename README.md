@@ -55,7 +55,7 @@
 https://nusmss.github.io/website-events-timeline
 
 
-## HOW TO RESOLVE CROPPED OUT EVENTS TIMELINE**
+## HOW TO RESOLVE CROPPED OUT EVENTS TIMELINE
 
 **Solution (Steps might be slightly technical. Screenshots with instructions are provided to assist you)**
 1. On your Website Builder, go to Events page.
