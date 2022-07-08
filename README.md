@@ -56,16 +56,6 @@ https://nusmss.github.io/website-events-timeline
 
 ## HOW TO RESOLVE CROPPED OUT EVENTS TIMELINE**
 
-**Mobile Responsive Sizing Chart**
-
-We will need to change the height for the different screen sizes:
- 1. Desktop (width: 1200 pixels & beyond) <-- Use '1200'
- 2. Tablet (width: 768 to 1200 pixels) <-- Use '768'
- 3. Mobile (width: 490 to 768 pixels) <-- Use '490'
- 4. Smaller Mobile (width: 380 to 490 pixels) <-- Use '380'
- 5. Smallest Mobile (width: 330 to 380 pixels) <-- Use '330'
- 6. Smallestest Mobile (width: up to 330 pixels) <-- Use '330' (Which is same height as item above)
-
 **Solution (Steps might be slightly technical. Screenshots with instructions are provided to assist you)**
 1. On your Website Builder, go to Events page.
 2. Now click on the 'Events' element you see on the page and click on Edit Widget.
@@ -83,31 +73,46 @@ Continue with the following steps (Another Tab, preferably now you have 2 window
  3. On the side developer console, on its most top left hand side, second button from the left, click on the 'mobile' icon. <-- this will show you the different mobile sizes.
     
     ![](http://tiny.cc/t69tuz)
- 4. Now, on the top left side, change the 'Dimensions' to 'Responsive'.
+ 4. Now, on the top left side, change the 'Dimensions' to 'Responsive'. Notice the 2 textboxes beside it, for manually input of [width x height].
     
     ![](http://tiny.cc/q69tuz)
  5. You will be able to see on the screen, there are draggable right tool and draggable bottom tool for you to adjust the screen sizes accordingly.
     
     ![](http://tiny.cc/u69tuz)
- 6. Use this screen sizing tool to simulate all of the 6 different Mobile Responsive Sizes indicated above.
- 7. For example, let's start with Desktop. Refer to the dimensions listed above, use the given number within quotes. Change the width to 1200px (where px means pixels).
- 8. Still on the developer console, make sure you have clicked on it, use 'Ctrl + F' key to bring up the search console. Then in the search textbox, type '<iframe'.
+ 6. But to save time, we will set the dimension via 'width' textbox field in Step 8 instead. Below is the Sizing Chart. Take note of the bold "Use 'xxx'" value, where x represents the value you should use for input later.
+    
+    **Mobile Responsive Sizing Chart**
+    
+    We will need to change the height for the different screen sizes:
+     1. Desktop (width: 1201 pixels & beyond) **<-- Use '1201'**
+     2. Tablet (width: 768 to 1200 pixels) **<-- Use '769'**
+     3. Mobile (width: 490 to 768 pixels) **<-- Use '491'**
+     4. Smaller Mobile (width: 380 to 490 pixels) **<-- Use '381'**
+     5. Smallest Mobile (width: 330 to 380 pixels) **<-- Use '331'**
+     6. Smallestest Mobile (width: up to 330 pixels) **<-- Use '330'** (Which is same height as item above)
+ 
+ 8. For example, let's start with **Mobile**. Refer to the dimensions listed above, use the given number within quotes. Key in **'491'** into the width textbox field, and then press the 'Enter' key.
+    
+    ![](https://i.imgur.com/NyErCHf.png)
+ 9. Still on the developer console, use 'Ctrl + F' key to bring up the "search" console. In the search textbox, type '<iframe', and then press the 'Enter' key.
     
     ![](https://i.imgur.com/ZY1laJY.png)
- 9. Now you will need to do trial-and-error of height values changing. Increase or decrease the height value as needed, while paying attention to the preview screen on the left if the cropping/extra space issue has been fixed.
+ 10. Now you will need to do trial-and-error of height values changing for each of the Mobile Responsive Sizes listed above. Increase or decrease the height value as needed, while paying attention to the preview screen on the left if the cropping/extra space issue has been fixed. (**ONLY CHANGE THE HEIGHT**, leave everything else as it is)
     
-    ![](https://i.imgur.com/RLV7n01.png)
- 10. Once you have found the most suitable height value, copy that value and replace the existing value, inside your Website Builder's Code, with it.
+     ![](https://i.imgur.com/RLV7n01.png)
+     
+     ![](https://i.imgur.com/dR4Nc65.png)
+ 11. Once you have found the most suitable height value, copy that value and replace the existing value, inside your Website Builder's Code, with it.
   
      ![](https://i.imgur.com/XfmAMsL.png)
  12. Save your new Website Builder's Code for each time.
 
      ![](https://i.imgur.com/WxGIfmj.png)
- 13. Repeat steps 7 to 12 for each of the six different mobile sizes shown in the above Mobile Responsive Sizing Chart.
+ 13. Repeat steps 7 to 11 for each of the six different mobile sizes shown in the above Mobile Responsive Sizing Chart.
 
 
 **Testing of Different Mobile Sizes using Web Builder**
-  1. Click 'Preview' button at the top to select.
+  1. Click 'Preview' button at the top to select; Desktop, Tablet, Mobile.
      
      ![](https://i.imgur.com/ugxEEan.png)
      
@@ -141,7 +146,7 @@ The codes below is a copy of what has been applied on your Web Builder. It is ad
                 overflow: hidden;
                 position: relative;
                 border: 0;
-                min-height:11380px;
+                min-height:11380px; 
                 width: 1000px;
                 overflow: hidden !important;
             }
