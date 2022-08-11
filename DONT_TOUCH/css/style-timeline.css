@@ -199,7 +199,15 @@ section#timeline > article > div.panel div.badge:last-child {
   display: none;
 }
 
+.inverted.animated.zoomInUp {
+    text-align: right;
+}
+
 @media (max-width: 767px) {
+  .inverted.animated.zoomInUp {
+    text-align: left;
+  }
+  
   section#timeline > article > div.panel div.badge,
   section#timeline > article > div.panel div.panel-body {
     background: #f7f7f7;
