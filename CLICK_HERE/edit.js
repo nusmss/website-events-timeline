@@ -2,6 +2,53 @@
 var data = [
   // EDIT BELOW ONWARDS
   {
+    time: "2022-07-15",
+    header: "Kesenian Ria: Semai",
+    body: [
+      {
+        tag: "img",
+        attr: {
+          src: "CLICK_HERE/img/kesenian-ria-2022.png",
+          width: "100%",
+          cssclass: "img-responsive",
+        },
+      },
+      {
+        tag: "p",
+        content:
+          "Previously known as Malam Kesenian, MSS and PBMUKS introduced the first iteration of their collaboration, known as Kesenian Ria: Semai.",
+      },
+      {
+        tag: "p",
+        content: "Kesenian Ria: Semai was held with the freshmen in mind. Being the first event since orientation, this event was a platform to encourage bonding amongst the 'Anak Melayu NUS' (NUS Malay Undergraduates) to foster a close-knit community. At the same time, it was also a way to celebrate the richness of the Malay culture.",
+      },
+    ],
+  },
+  {
+    time: "2022-03-23",
+    header: "Let's Settle the Cancel",
+    body: [
+      {
+        tag: "img",
+        attr: {
+          src: "CLICK_HERE/img/lets_settle_the_cancel_2022.jpeg",
+          width: "100%",
+          cssclass: "img-responsive",
+        },
+      },
+      {
+        tag: "p",
+        content:
+          "For this years iteration of the Undergrad Forum, MSS unpacked the issue of cancel culture in 'Let's Settle the Cancel', with facilitation from activist Mr Imran Taib.",
+      },
+      {
+        tag: "p",
+        content:
+          "Undergraduates were given a safe space to interact and discuss their views through a game inspired by the famous youtube series “Spectrum”.",
+      },
+    ],
+  },
+  {
     time: "2022-01-8",
     header: "Education Pathways",
     body: [
