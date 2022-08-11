@@ -26,7 +26,8 @@ var data = [
   },
   {
     time: "2022-03-23",
-    header: "Let's Settle the Cancel",
+    header: "Undergraduate Forum",
+    title: "Let's Settle the Cancel",
     body: [
       {
         tag: "img",
