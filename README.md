@@ -3,7 +3,7 @@
 
  1. Go to https://github.com/nusmss/website-events-timeline/tree/main/CLICK_HERE/img
  2. Click 'Add file' at the top right side of the text editor
- 3. Click 'Upload files'
+ 3. Click 'Upload files' (For file naming, it is highly advised to rename to sensible names such as 'kesianian-ria-2022.png')
  4. Choose the photo(s) in your computer
  5. Press Enter
  6. Upload successfully!
