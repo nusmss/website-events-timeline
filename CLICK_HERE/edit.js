@@ -3,8 +3,12 @@ var data = [
   // EDIT BELOW ONWARDS
   {
     time: "2022-07-15",
-    header: "Kesenian Ria: Semai",
+    header: "Kesenian Ria",
     body: [
+      {
+        tag: "h1",
+        content: "Semai",
+      },
       {
         tag: "img",
         attr: {
@@ -27,8 +31,11 @@ var data = [
   {
     time: "2022-03-23",
     header: "Undergraduate Forum",
-    title: "Let's Settle the Cancel",
     body: [
+      {
+        tag: "h1",
+        content: "Let's Settle the Cancel",
+      },
       {
         tag: "img",
         attr: {
