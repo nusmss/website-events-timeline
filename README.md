@@ -148,7 +148,7 @@ The codes below is a copy of what has been applied on your Web Builder. It is ad
                 overflow: hidden;
                 position: relative;
                 border: 0;
-                min-height:11380px; 
+                min-height:12590px;
                 width: 1000px;
                 overflow: hidden !important;
             }
@@ -163,7 +163,7 @@ The codes below is a copy of what has been applied on your Web Builder. It is ad
                 overflow: hidden;
                 position: relative;
                 border: 0;
-                height:16630px;
+                height:18347px;
                 width: 640px;
                 overflow: hidden !important;
             }
@@ -183,7 +183,7 @@ The codes below is a copy of what has been applied on your Web Builder. It is ad
                 overflow: hidden;
                 position: relative;
                 border: 0;
-                height:13250px;
+                height:14660px;
                 width: 440px;
                 overflow: hidden !important;
             }
@@ -203,7 +203,7 @@ The codes below is a copy of what has been applied on your Web Builder. It is ad
                 overflow: hidden;
                 position: relative;
                 border: 0;
-                height:11724px;
+                height:13024px;
                 width: 340px;
                 overflow: hidden !important;
             }
@@ -223,7 +223,7 @@ The codes below is a copy of what has been applied on your Web Builder. It is ad
                 overflow: hidden;
                 position: relative;
                 border: 0;
-                height:11290px;
+                height:12560px;
                 width: 295px;
                 overflow: hidden !important;
             }
@@ -242,10 +242,10 @@ The codes below is a copy of what has been applied on your Web Builder. It is ad
                 overflow: hidden;
                 position: relative;
                 border: 0;
-                height:11262px;
+                height:12502px;
                 width: 265px;
                 overflow: hidden !important;
             }
         }
 
-    </style> 
+    </style>  
